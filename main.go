@@ -1,13 +1,6 @@
 package main
 
-import "fmt"
-
 func main() {
-	sales := []int{12_000,8_000,15_000,8_000}
-	for _, sale := range sales{
-		result :=bonuses(sale)
-		fmt.Println(result)
-	}
 
 }
 
